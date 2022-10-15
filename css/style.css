@@ -1,0 +1,181 @@
+/*font-family: 'Reem Kufi Ink', sans-serif;*/
+/*background: #373A3C;
+border-radius: 4px;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Reem Kufi Ink", sans-serif;
+}
+a {
+  font-family: inherit;
+}
+.header {
+  background: #373a3c;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 3px solid #777;
+}
+.container-header {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-item {
+  list-style: none;
+  margin-left: 40px;
+}
+.menu-link {
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+.menu-link:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px yellow;
+}
+
+.promo {
+  background: url(../img/Star-Wars-Battlefront-II-combat.jpg) no-repeat center /
+    cover;
+  height: calc(100vh - 63px);
+}
+.container-promo {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.promo__title {
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 134px;
+}
+.block-promo-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+.promo-button {
+  padding: 8px 19px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+.promo__title span {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+}
+.promo-button:hover {
+  background: #8dd83d;
+}
+.best {
+  padding: 34px 0 165px 0;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+.best-logo {
+  display: block;
+  margin: 0 auto;
+}
+.best-title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.best-title span {
+  display: block;
+}
+.container {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.best-info {
+  display: flex;
+  justify-content: space-between;
+}
+.best-card-img {
+  height: 180px;
+  background: url(../img/xbox-one-x.jpg) no-repeat center / cover;
+}
+.best-card-img2 {
+  height: 180px;
+  background: url(../img/mixer.png) no-repeat center / cover;
+}
+.best-card-img3 {
+  height: 180px;
+  background: url(../img/games.png) no-repeat center / cover;
+}
+.best-card {
+  flex: 0 0 320px;
+}
+.best-card {
+  background: #ffffff;
+  height: 420px;
+  width: 320px;
+  left: 921px;
+  top: 283px;
+  border-radius: 0px;
+}
+.best-card-button {
+  text-decoration: none;
+  list-style: none;
+  background-size: 100px;
+  display: block;
+}
+.button {
+  background: #8dd83d;
+  background-size: 100px;
+  text-decoration: none;
+  margin: 50px 19px 30px 19px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid transparent;
+  transition: all 0.5s ease 0s;
+}
+.button:hover {
+  border: 2px solid red;
+  box-shadow: 0 0 5px 0px red;
+}
+.best-card-title {
+  padding: 8px 19px;
+  font-size: 18px;
+  line-height: 21px;
+}
+.best-card-text {
+  margin-top: 16px;
+  border-radius: 4px;
+  padding: 8px 19px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/*   height: 180px;
+  background: url(../img/games.jpg) no-repeat center / cover;*/
